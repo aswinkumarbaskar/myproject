@@ -1,0 +1,38 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/aswinkumar.baskar/sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/aswinkumar.baskar/sample/issues"
+  },
+  "homepage": "https://gitlab.com/aswinkumar.baskar/sample#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.2",
+    "mongoose": "^6.2.9",
+    "mongoose-auto-increment": "^5.0.1",
+    "node-env-file": "^0.1.8",
+    "nodemailer": "^6.7.3",
+    "pug": "^3.0.2",
+    "unirest": "^0.6.0"
+  }
+}
